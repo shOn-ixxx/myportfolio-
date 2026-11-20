@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="The portfolio of Shawn Mendez, a student learning and building for the web.">
+    <title>Shawn Mendez — Student &amp; Creative Developer</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        if (localStorage.getItem("portfolio-theme") === "dark") {
+            document.documentElement.dataset.theme = "dark";          
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Shawn Mendez, home">
+            <img src="./assets/logo.jpg" alt="" class="brand-mark">
+            <span>Shawn Mendez<span class="brand-dot"></span></span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero page-width" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> Student-Portfolio</p>
+                <h1>Hi, I'm Shawn Mendez.<br>Welcome to my<br><span class="accent-text">Portfolio<span class="period">.</span></span></h1>
+                <p class="hero-description"> </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#about">About me<span aria-hidden="true">↓</span></a>
+                    <a class="text-link" href="#contact">Contact<span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="hero-meta">
+                    <span></span>  
+                    <span class="meta-divider"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="hero-art" aria-label="Shawn Mendez initials logo">
+                <div class="art-grid"></div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="art-glow"></div>
+                <img class="hero-logo" src="image1.jpg" alt="SM initials">
+                
+            </div>
+            <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="about section page-width" id="about">
+            <div class="section-label"><span>01</span> A LITTLE ABOUT ME</div>
+            <div class="about-content">
+                <h2>About<br><span class="muted-text">Myself.</span></h2>
+                <div class="about-copy">
+                    <p>I’m Shawn Mendez. A 1st year BSIT student at Bukidnon State University. </p>
+                    <p> I enjoy discovering how things work, developing new skills, and exploring the creative possibilities of web development. My dream is to become a skilled website developer who can turn ideas into functional, creative, and user-friendly websites. I'm always eager to learn, improve, and take on new challenges as I work toward achieving my goals. </p>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section class="focus section page-width" id="skills">
+            <div class="section-heading">
+                <div>
+                    <div class="section-label"><span>02</span> SKILLS I’M DEVELOPING</div>
+                    <h2>My<br><span class="muted-text">skills.</span></h2>
+                </div>
+                
+            </div>
+            <div class="focus-grid">
+                <article class="focus-card skills-card">
+                    <div class="skills-card-heading">
+                          <h3>Web development</h3>
+                        <p>Still learning.</p>
+                    </div>
+                    <ul class="skills-list">
+                        <li>Basic computer knowledge</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C language basics</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects section page-width" id="projects">
+            <div class="section-heading">
+                <div>
+                    <div class="section-label"><span>03</span> SELECTED WORK</div>
+                    <h2>Projects /<br><span class="muted-text">Achievements.</span></h2>
+                </div>
+                 
+            </div>
+            <article class="achievement-card">
+                <img class="achievement-image" src="./html-essentials.png" alt="Cisco Networking Academy Verified HTML Essentials certificate">
+                <div class="achievement-copy">
+                     <p class="achievement-label">CERTIFICATE · CISCO NETWORKING ACADEMY</p>
+                    <h3>HTML Essentials</h3>
+                    <p>Verified achievement in HTML fundamentals.</p>
+                </div>
+            </article>
+            <a class="achievement-card" href="./Forrest/index.html" target="_blank" rel="noopener noreferrer" aria-label="Open the Forrest Co-Working Space project">
+                <img class="achievement-image" src="./Forrest/forpic10.jpg" alt="Forrest Co-Working Space">
+                <div class="achievement-copy">
+                    <p class="achievement-label">PROJECT · WEBSITE</p>
+                    <h3>FORREST Co-Working Space</h3>
+                    <p>A workspace and study hub website for students, freelancers, and professionals.</p>
+                </div>
+            </a>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="contact-inner page-width">
+                <div class="section-label"><span>04</span> CONTACT ME</div>
+                <h2>My<br>Contact Information.</h2>
+                <ul class="contact-list">
+                    <li><span>Phone</span><span>09939676081</span></li>
+                    <li><span>Name</span><span>Shawn Mendez</span></li>
+                    <li><span>Email</span><a href="mailto:caerdeimendez@gmail.com">caerdeimendez@gmail.com</a></li>
+                    <li><span>Instagram</span><a href="https://www.instagram.com/ch0n_exx?cplk=ZWl3bm01bzJY3Vt" target="_blank" rel="noopener noreferrer">@ch0n_exx</a></li>
+                    <li><span>Facebook</span><a href="https://facebook.com/profile.php?id=61590667835389" target="_blank" rel="noopener noreferrer">Visit my profile</a></li>
+                </ul>
+            </div>
+            <div class="contact-decoration" aria-hidden="true">SM<span>.</span></div>
+        </section>
+    </main>
+
+    <footer class="site-footer page-width">
+        <a class="brand footer-brand" href="#home">
+            <img src="./assets/logo.jpg" alt="" class="brand-mark">
+            <span>shawn<span class="brand-dot">.</span></span>
+        </a>
+        <p>Made by Shawn Mendez for Student Portfolio.</p>
+        <a class="back-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
+    </footer>
+    <script>
+        const themeToggle = document.querySelector(".theme-toggle");
+        const themeColor = document.querySelector('meta[name="theme-color"]');
+
+        function setTheme(theme) {
+            const isDark = theme === "dark";
+            document.documentElement.dataset.theme = isDark ? "dark" : "light";
+            themeToggle.textContent = isDark ? "Light mode" : "Dark mode";
+            themeToggle.setAttribute("aria-label", `Switch to ${isDark ? "light" : "dark"} mode`);
+            themeToggle.setAttribute("aria-pressed", String(isDark));
+            themeColor.content = isDark ? "#080d18" : "#ffffff";
+            localStorage.setItem("portfolio-theme", isDark ? "dark" : "light");
+        }
+
+        setTheme(document.documentElement.dataset.theme === "dark" ? "dark" : "light");
+        themeToggle.addEventListener("click", () => {
+            setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+        });
+    </script>
+</body>
+</html>
